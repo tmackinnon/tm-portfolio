@@ -1,7 +1,17 @@
 import './globals.css';
-import { Inter } from 'next/font/google';
+import { Montserrat, Shrikhand } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-mont',
+  weight: '400'
+});
+
+const shrikhand = Shrikhand({
+  subsets: ['latin'],
+  variable: '--font-shrik',
+  weight: '400'
+});
 
 export const metadata = {
   title: "Tara MacKinnon's Portfolio",
@@ -11,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${montserrat.variable} ${shrikhand.variable} font-mont`}>{children}</body>
     </html>
   );
 }
