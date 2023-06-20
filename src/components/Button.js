@@ -1,6 +1,6 @@
 export default function Button(props) {
   return (
-    <button>
+    <button className="rounded bg-secondary p-2 font-bold">
       {props.title}
     </button>
   );

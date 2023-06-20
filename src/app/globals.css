@@ -19,10 +19,4 @@
 body {
   color: rgba(75, 85, 99);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
 }
