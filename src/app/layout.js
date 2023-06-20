@@ -4,7 +4,7 @@ import { Montserrat, Shrikhand } from 'next/font/google';
 const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-mont',
-  weight: '400'
+  weight: ['300', '600']
 });
 
 const shrikhand = Shrikhand({
