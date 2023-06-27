@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export default function About() {
   return (
-    <div>
+    <div id='About' className="m-6">
       <h1 className='text-5xl font-bold font-sans'>About Me</h1>
       <div className='text-xl'>
         <h2>Hi there! I&apos;m Tara, a full-stack web developer based in Vancouver, BC.</h2>
