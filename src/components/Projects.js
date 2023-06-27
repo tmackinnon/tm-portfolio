@@ -29,7 +29,7 @@ export default function Projects() {
   });
 
   return (
-    <div id='Projects' className="m-6 w-full flex flex-col">
+    <div id='Projects' className="m-6 flex flex-col">
       <h1 className='text-5xl font-bold font-sans'>My Projects</h1>
       <div className='flex flex-wrap w-full justify-around'>
         {projectItems}
