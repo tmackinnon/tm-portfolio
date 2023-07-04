@@ -2,9 +2,10 @@ import Link from "next/link";
 
 export default function Nav() {
 
+ 
 
   return (
-    <div className="flex m-0 bg-gray-200 w-screen p-4 items-center justify-center">
+    <div className="flex fixed top-0 left-0 right-0 m-0 w-screen h-28 items-center justify-center">
       <div className="flex justify-between m-0 w-3/4 min-w-min items-center">
         <h1 className='text-6xl font-sans'>Tara MacKinnon</h1>
         <div className="flex">

@@ -29,7 +29,7 @@ export default function Projects() {
   });
 
   return (
-    <div id='Projects' className='py-20 mt-20'>
+    <div id='Projects' className='py-20 mt-28'>
       <h1 className='text-6xl font-bold font-sans'>My Projects</h1>
       <div className='flex flex-wrap w-full justify-around'>
         {projectItems}

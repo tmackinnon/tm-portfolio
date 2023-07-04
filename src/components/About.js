@@ -6,7 +6,7 @@ import profile from '../../public/profile.png';
 
 export default function About() {
   return (
-    <div id='About' className="flex py-20 mt-20">
+    <div id='About' className="flex py-20 mt-48 w-3/4">
       <div className="mr-20">
         <h1 className='text-6xl font-bold font-sans mb-4'>About Me</h1>
         <h2 className='text-4xl mb-4'>
