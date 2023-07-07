@@ -1,3 +1,4 @@
+import Nav from '@/components/Nav';
 import './globals.css';
 import { Montserrat, Shrikhand } from 'next/font/google';
 
@@ -21,7 +22,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${shrikhand.variable} font-mont`}>{children}</body>
+      <body className={`${montserrat.variable} ${shrikhand.variable} font-mont`}>
+        <Nav/>
+        {children}
+      </body>
     </html>
   );
 }

@@ -12,8 +12,10 @@ module.exports = {
         mont: ['var(--font-mont)'],
       },
       colors: {
-        'primary': '#134f26',
-        'secondary': '#fdf1e3'
+        'primary': '#fffbf5',
+        'secondary': '#1b5938',
+        'teal': '#0e8f96',
+        'yellow': '#dee94c'
       }
     },
   },
