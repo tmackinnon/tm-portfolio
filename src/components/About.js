@@ -6,12 +6,12 @@ import profile from '../../public/profile.png';
 
 export default function About() {
   return (
-    <div id='About' className="flex py-80 bg-gray-200 justify-center">
+    <div id='About' className="flex py-80 bg-secondary justify-center text-primary">
 
       <div className="flex items-center justify-evenly w-3/4">
 
         <div className="w-3/5">
-          <h1 className='text-6xl font-bold font-sans mb-4'>About Me</h1>
+          <h1 className='text-6xl font-bold font-sans mb-8'>About Me</h1>
           <h2 className='text-4xl mb-4'>
             Hi there! I&apos;m Tara, a full-stack web developer based in Vancouver, BC.
           </h2>

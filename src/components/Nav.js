@@ -26,7 +26,7 @@ export default function Nav() {
  
 
   return (
-    <div className={`flex fixed top-0 left-0 right-0 m-0 w-screen h-28 items-center justify-center shadow-lg ${scroll ? 'bg-primary text-secondary border-secondary' : 'bg-secondary text-primary border-primary'}`}>
+    <div className={`flex fixed top-0 left-0 right-0 m-0 w-screen h-28 items-center justify-center ${scroll ? 'bg-primary text-secondary border-secondary shadow-lg' : 'bg-secondary text-primary border-primary'}`}>
       <div className="flex justify-between m-0 w-3/4 min-w-min items-center">
         <h1 className='text-6xl font-sans'>Tara MacKinnon</h1>
         <div className="flex">

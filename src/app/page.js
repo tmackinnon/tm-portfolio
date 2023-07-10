@@ -7,9 +7,7 @@ export default function Home() {
   return (
     <div className='flex flex-col w-screen items-center bg-primary text-secondary'>
       <About/>
-      <div className="flex flex-col w-3/4">
-        <Projects/>
-      </div>
+      <Projects/>
     </div>
   );
 }
