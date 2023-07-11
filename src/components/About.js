@@ -6,7 +6,7 @@ import profile from '../../public/profile.png';
 
 export default function About() {
   return (
-    <div id='About' className="flex py-80 bg-secondary justify-center text-primary">
+    <div id='About' className="flex pt-80 pb-48 bg-secondary justify-center text-primary">
 
       <div className="flex items-center justify-evenly w-3/4">
 
@@ -30,7 +30,6 @@ export default function About() {
             height={400}
             alt="Picture of the author"
           />
-
         </div>
       </div>
     </div>

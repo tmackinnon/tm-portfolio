@@ -20,3 +20,19 @@ body {
   color: rgba(75, 85, 99);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.wave {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 164px;
+}
+
+.wave .shape-fill {
+  fill: #1B5938;  
+}

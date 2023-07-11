@@ -29,7 +29,7 @@ export default function Projects() {
   });
 
   return (
-    <div id='Projects' className='flex flex-col w-11/12 items-center mt-28 p-8 rounded-lg '>
+    <div id='Projects' className='flex flex-col w-11/12 items-center rounded-lg my-20'>
       <h1 className='text-6xl font-bold font-sans my-8'>My Projects</h1>
       <div className='flex flex-wrap w-full justify-evenly bg-secondary rounded-lg'>
         {projectItems}
