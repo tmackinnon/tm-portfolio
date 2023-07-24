@@ -1,4 +1,4 @@
-export default function Contact() {
+export default function Skills() {
   return (
     <div className="flex flex-col pb-48 bg-secondary items-center text-primary w-screen">
       <div className="waveB">
@@ -7,8 +7,12 @@ export default function Contact() {
         </svg>
       </div>
       
-      <div className="rounded-lg bg-primary text-secondary">
-        <h1>CONTACT ME</h1>
+      <div className="flex flex-col rounded-lg text-primary mt-20 items-center">
+        <h1 className='text-6xl font-bold font-sans mb-8'>Skills</h1>
+        <h2 className='text-4xl mb-4'>Languages</h2>
+        <h2 className='text-4xl mb-4'>Frameworks, Libraries and Environments</h2>
+        <h2 className='text-4xl mb-4'>Testing</h2>
+        <h2 className='text-4xl mb-4'>Systems, CMS, Databases</h2>
       </div>
     </div>
   );

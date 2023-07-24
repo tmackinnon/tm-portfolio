@@ -1,5 +1,5 @@
 import About from '@/components/About';
-import Contact from '@/components/Contact';
+import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 
 //className="flex flex-col m-0 w-3/4 p-4 items-center justify-center"
@@ -13,7 +13,7 @@ export default function Home() {
         </svg>
       </div>
       <Projects/>
-      <Contact/>
+      <Skills/>
     </div>
   );
 }
