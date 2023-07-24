@@ -36,3 +36,19 @@ body {
 .wave .shape-fill {
   fill: #1B5938;  
 }
+
+.waveB {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.waveB svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 164px;
+}
+
+.waveB .shape-fill {
+  fill: #fffbf5;  
+}

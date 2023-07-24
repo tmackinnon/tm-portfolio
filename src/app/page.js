@@ -1,6 +1,5 @@
 import About from '@/components/About';
 import Contact from '@/components/Contact';
-import Nav from '@/components/Nav';
 import Projects from '@/components/Projects';
 
 //className="flex flex-col m-0 w-3/4 p-4 items-center justify-center"

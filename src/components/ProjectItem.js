@@ -16,7 +16,7 @@ export default function ProjectItem(props) {
         </Link>
       </div>
       <div className='flex flex-col w-full mb-2 px-4 pt-4 pb-8 items-startd text-gray-700 w-4/5'>
-        <h3 className='text-3xl text-center text-secondary font-bold border-b-2'>{props.title}</h3>
+        <h3 className='text-3xl text-center text-secondary font-bold border-b-2 text-grey'>{props.title}</h3>
         <p className='mt-6 text-xl text-center'>{props.description}<br></br><b>Tech Stack:</b> NodeJS, Express, ReactJS, PostgreSQL, SASS</p>
       </div>
     </div>
