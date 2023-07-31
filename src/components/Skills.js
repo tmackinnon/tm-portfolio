@@ -1,3 +1,7 @@
+import Image from 'next/image';
+import js from '../../public/js.png'
+import html from '../../public/html.png'
+
 export default function Skills() {
   return (
     <div className="flex flex-col pb-48 bg-secondary items-center text-primary w-screen">
@@ -10,6 +14,8 @@ export default function Skills() {
       <div className="flex flex-col rounded-lg text-primary mt-20 items-center">
         <h1 className='text-6xl font-bold font-sans mb-8'>Skills</h1>
         <h2 className='text-4xl mb-4'>Languages</h2>
+          <Image src={js} alt='javascript icon'/>
+          <Image src={html} alt='html icon'/>
         <h2 className='text-4xl mb-4'>Frameworks, Libraries and Environments</h2>
         <h2 className='text-4xl mb-4'>Testing</h2>
         <h2 className='text-4xl mb-4'>Systems, CMS, Databases</h2>
