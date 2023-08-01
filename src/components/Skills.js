@@ -1,6 +1,21 @@
 import Image from 'next/image';
 import js from '../../public/js.png'
 import html from '../../public/html.png'
+import css from '../../public/css.png'
+import ruby from '../../public/ruby.png'
+import nodejs from '../../public/nodejs.png'
+import react from '../../public/react.png'
+import express from '../../public/express.png'
+import jquery from '../../public/jquery.png'
+import sass from '../../public/sass.png'
+import rails from '../../public/rails.png'
+import jest from '../../public/jest.png'
+import mocha from '../../public/mocha.png'
+import chai from '../../public/chai.png'
+import cypress from '../../public/cypress.png'
+import storybook from '../../public/storybook.png'
+import git from '../../public/git.png'
+import postrgesql from '../../public/postgresql.png'
 
 export default function Skills() {
   return (
@@ -14,11 +29,34 @@ export default function Skills() {
       <div className="flex flex-col rounded-lg text-primary mt-20 items-center">
         <h1 className='text-6xl font-bold font-sans mb-8'>Skills</h1>
         <h2 className='text-4xl mb-4'>Languages</h2>
-          <Image src={js} alt='javascript icon'/>
-          <Image src={html} alt='html icon'/>
+        <div className='flex mb-8'>
+          <Image className='px-1' src={js} alt='javascript icon'/>
+          <Image className='px-1' src={html} alt='html icon'/>
+          <Image className='px-1' src={css} alt='css icon'/>
+          <Image className='px-1' src={ruby} alt='ruby icon'/>
+        </div>
         <h2 className='text-4xl mb-4'>Frameworks, Libraries and Environments</h2>
+        <div className='flex mb-8'>
+          <Image className='px-2' src={nodejs} alt='nodejs icon'/>
+          <Image className='px-2' src={react} alt='react icon'/>
+          <Image className='px-2' src={express} alt='express icon'/>
+          <Image className='px-2' src={jquery} alt='jquery icon'/>
+          <Image className='px-2' src={sass} alt='sass icon'/>
+          <Image className='px-2' src={rails} alt='rails icon'/>
+        </div>
         <h2 className='text-4xl mb-4'>Testing</h2>
+        <div className='flex mb-8'>
+          <Image className='px-2' src={jest} alt='jest icon'height={96} width={96}/>
+          <Image className='px-2' src={mocha} alt='mocha icon'height={96} width={96}/>
+          <Image className='px-2' src={chai} alt='chai icon' height={96} width={96}/>
+          <Image src={storybook} alt='storybook icon'/>
+          <Image src={cypress} alt='cypress icon'/>
+        </div>
         <h2 className='text-4xl mb-4'>Systems, CMS, Databases</h2>
+        <div className='flex mb-8'>
+          <Image className='p-2' src={git} alt='git icon'/>
+          <Image className='p-2' src={postrgesql} alt='postrgesql icon'/>
+        </div>
       </div>
     </div>
   );
