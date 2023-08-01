@@ -11,7 +11,7 @@ export default function About() {
       <div className="flex items-center justify-evenly w-3/4">
 
         <div className="w-3/5">
-          <h1 className='text-6xl font-bold font-sans mb-8'>About Me</h1>
+          <h1 className='text-7xl font-bold font-sans mb-8'>About Me</h1>
           <h2 className='text-4xl mb-4'>
             Hi there! I&apos;m Tara, a full-stack web developer based in Vancouver, BC.
           </h2>

@@ -27,7 +27,7 @@ export default function Skills() {
       </div>
       
       <div className="flex flex-col rounded-lg text-primary mt-20 items-center">
-        <h1 className='text-6xl font-bold font-sans mb-8'>Skills</h1>
+        <h1 className='text-7xl font-bold font-sans mb-8'>Skills</h1>
         <h2 className='text-4xl mb-4'>Languages</h2>
         <div className='flex mb-8'>
           <Image className='px-1' src={js} alt='javascript icon'/>
